@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <link rel="icon" href="favicon.png" size="16x16" type="image/png">
+    <title>Local Band</title>
+    <style>
+     *{background-color: darkgray;} 
+     h1{font-size: 50px; font-family:'Times New Roman', Times, serif;position: fixed;left: 400px;opacity: 80%;
+        margin:auto;text-align: center;padding-bottom: 5px;
+    }  
+    .row{
+        display: flex;
+        padding-top: 65px;
+    }
+    .column{
+        flex: 50%;
+    }
+    #theband{
+        font-size: 40px;margin: auto;text-align: center;padding-bottom: 5px;padding-top: 10px; opacity: 60%;
+    }
+    p{font-size: 20px;}
+    .flex-container{
+        display: flex;
+        align-content: center;
+    }
+    .flex{
+        flex:33.33%;
+    }
+
+    table, th, td{border: 1px solid black; border-collapse: collapse;font-size: 20px;}
+    th, td{padding: 5px;text-align: center;}
+    </style>
+    
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Lost Woods - Adelaide Local Band</h1>
+        </header>
+    </section>
+    <section class="row">
+        <img class="column" width=50% height=auto src = "images/title.jpg" alt="Lost Woods">
+        <img class="column" width=50% height=auto src="images/pix1.jpg" alt="pix1">
+    </section>
+    
+    <section>
+        <!--Band Description-->
+        
+        <p id="theband">The Band</p>
+        <p class="p1">Lost Woods is an Australian indie rock/pop band from Adelaide, SA. Their soaring vocals and jangly guitars have earned them many plaudits
+            and loyal fan base. The band shared stage with some wellknown artists which include Timberwolf, Kingswood and many more.
+            Bridget Hustwaite from Triple J applauded the band, describing them as "Punchy, jangly, soaring indie pop goodness"
+            The bands sophomore EP 'Shaping Distant Memories' is out now. A beautiful textured and heartbreakingly melancholy record, that will have you lost in the layers of vocals and guitars.</p>
+            <p>Here is a 
+                <a href="http://www.lostwoodsmusic.com/?fbclid=IwAR0-xBrDLJtpuIJSlrwT5dtEnAaj3cbPlRViR0oKNHZ7jubjHMJeCJXIVPA" 
+                target="_blank">link</a> 
+                to their homepage.</p>
+    </section>
+    <section class="flex-container">
+        <div class="flex">
+            <h2>Band members:</h2>
+            <ul style="font-size: 20px;">
+            <li>Peter White - Vocalist</li>
+            <li>Tom & Same Baird - Guitarist</li>
+            <li>Lucas & Miles Sly - Percussionist</li>
+            </ul>
+        </div>
+        <div class="flex">
+            <table style="margin-top: 50px; width: 70%;">
+                <tr>
+                    <th>Song Name</th>
+                    <th>Release on</th>
+                </tr>
+                <tr>
+                    <td>EP 1</td>
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td>Ep 2</td>
+                    <td>2011</td>
+                </tr>
+            
+            </table>
+        </div>
+        <div class="flex">
+            <h2 id="VidName">The Kombi Sessions. Feat Lost Woods</h2>
+            <iframe class="Video" src="https://www.youtube.com/embed/L_SUU5TMc2U"></iframe>
+                
+
+        </div>
+    
+        
+    </section>
+</body>
+
+</html>
